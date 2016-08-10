@@ -151,6 +151,9 @@
   #elif ENABLED(NEWPANEL)
     #define LCD_CLICKED (buttons & EN_C)
   #endif
+  
+#elif ENABLED(NEXTION)
+   #include "nextion/Nextion_lcd.h"  
 
 #else //no LCD
   FORCE_INLINE void lcd_update() {}
