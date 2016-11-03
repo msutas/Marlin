@@ -86,7 +86,7 @@
     #define TALL_FONT_CORRECTION 1
   #elif ENABLED(DISPLAY_CHARSET_ISO10646_TR)
     #include "dogm_font_data_ISO10646_1_tr.h"
-    #define FONT_MENU_NAME ISO10646_TR_5x7
+    #define FONT_MENU_NAME ISO10646_TR
   #else // fall-back
     #include "dogm_font_data_ISO10646_1.h"
     #define FONT_MENU_NAME ISO10646_1_5x7

@@ -27,7 +27,7 @@
 
 // Fallback if no language is set. DON'T CHANGE
 #ifndef LCD_LANGUAGE
-  #define LCD_LANGUAGE en
+  #define LCD_LANGUAGE tr
 #endif
 
 // For character-based LCD controllers (DISPLAY_CHARSET_HD44780)
@@ -239,6 +239,6 @@
 #define INCLUDE_LANGUAGE LANGUAGE_INCL(LCD_LANGUAGE)
 
 #include INCLUDE_LANGUAGE
-#include "language_en.h"
+#include "language_tr.h"
 
 #endif //__LANGUAGE_H
